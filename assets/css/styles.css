@@ -1,0 +1,265 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-image: url('../img/background.png');
+    padding-top: 60px;
+}
+.logo h1 a {
+    padding-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #3d2514;
+    margin-left: 20px;
+}
+.top p {
+    color: #3d2514;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 15px;
+}
+.top-nav ul li a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #3d2514;
+}
+.top-nav ul li {
+    margin-right: 35px;
+    padding-top: 20px;
+}
+.box {
+    width: 50%;
+}
+.slogan {
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px dashed #3d2514;
+    display: inline-block;
+}
+.slogan p {
+    padding: 10px 20px 10px 20px;
+}
+.inner-container {
+    margin-top: 20%;
+}
+.slider {
+    padding-top: 50px;
+}
+.slide-information h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 114px;
+    text-transform: uppercase;
+    text-shadow: 8px 8px #fee8bc;
+}
+.circle {
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 60%;
+    top: 80%;
+}
+.inner-circle {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed white;
+    border-radius: 50%;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+}
+.inner-circle p {
+    font-size: 40px;
+}
+.inner-circle span {
+    font-size: 20px;
+}
+.slogan {
+    margin-bottom: 40px;
+}
+.slider {
+    padding-bottom: 150px;
+}
+
+/******** FLAVOUR SECTION *******/
+
+.popular,
+.secondary {
+    width: 42.8%;
+    height: 350px;
+}
+.basic {
+    width: 100%;
+    height: 43%;
+    margin-bottom: 1%;
+    background: yellow;
+}
+.popular,
+.basic {
+    border-radius: 10px;
+}
+.popular {
+    background: url(../img/big.png);
+    margin-right: 8%;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: .7s;
+}
+.popular:hover {
+    filter: grayscale(50%);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.basic {
+    background-image: url(../img/small.png);
+    margin-right: 2%;
+    margin-left: 1%;
+}
+.basic,
+.popular {
+    font-size: 25px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;   
+    padding: 20px;
+}
+#flavours {
+    margin-top: 2.5%;
+}
+.template {
+    width: 596px;
+    height: 390px;
+    margin-right: 1%;
+    overflow: hidden;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+/******** ORDER SECTION *******/
+
+.details {
+    text-align: center;
+}
+.details h1 {
+    color: #3d2514;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+.details :last-child {
+    width: 80%;
+    margin: auto;
+    font-size: 17px;
+    color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+}
+.details :first-child {
+    font-size: 25px;
+    color: #3d2514;
+    margin-top: 70px;
+    background: #ffc045;    
+    width: 17%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    font-family: 'Bebas Neue', cursive; 
+}
+.product-card {
+    margin-left: 2%;
+    width: 31.33%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.product-card img {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.product-card h1 {
+    font-size: 38px;
+    color: #3d2514;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive; 
+}
+.product-card button {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    background: #bf2222;
+    font-size: 17px;
+    text-align: center;
+    border: none;
+    width: 40%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 15px 15px;
+}
+.product-card {
+    margin-top: 40px;
+}
+.event-details {
+    width: 50%;
+}
+.event-details h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-bottom: 50px;
+}
+.event-details p {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d3d3d;
+    line-height: 1.5;
+}
+.event-details h1 > span {
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d3d3d;
+    line-height: 2;
+    letter-spacing: 5px;
+}
+.event {
+    box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+.btn {
+    background-color: #dcdcdc;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 50px;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: #f8d796;
+    cursor: pointer;
+}
+.btn[isSelected="true"] {
+    background: #ffc045;
+}
+.slide {
+    display: none;
+    transition: .5s ease;
+}
+.slide[key="1"] {
+    display: block;
+}
